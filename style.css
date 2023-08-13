@@ -1,12 +1,19 @@
 .dark-blue {
     display: flex;
     background-color: #1F2937;
+    flex-direction: column;
+    padding: 0 200px;
+}
+
+.dark-blue .sign-up {
+    padding: 100px 0;
 }
 
 .dark-blue h2 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .dark-blue p {
@@ -43,3 +50,35 @@ button {
     font-style: light italic;
     display: flex;
 }
+
+.CTA {
+    background-color: #3882F6;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toolbar ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.toolbar ul a {
+    text-decoration: none;
+    color: gray;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+}
+
