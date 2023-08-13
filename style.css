@@ -1,0 +1,45 @@
+.dark-blue {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.dark-blue h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.dark-blue p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.dark-blue h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.dark-blue li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.white {
+    display: flex;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: light italic;
+    display: flex;
+}
