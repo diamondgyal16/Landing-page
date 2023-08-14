@@ -34,13 +34,17 @@
 button {
     background-color: #3882F6;
     color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
 }
 
 .white {
-    display: flex;
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    padding: 0 200px;
+    padding-bottom: 100px;
 }
 
 .quotes {
@@ -49,12 +53,28 @@ button {
     color: #1F2937;
     font-style: light italic;
     display: flex;
+    padding: 100px 200px;
 }
 
 .CTA {
+    display: flex;
+    padding: 100px 200px;
+    flex-direction: column;
+}
+
+
+.CTA div {
     background-color: #3882F6;
     display: flex;
+    padding: 50px 100px;
+    color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
 }
+
+
+
 
 footer {
     display: flex;
@@ -82,3 +102,36 @@ footer {
     justify-content: space-between;
 }
 
+.Benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Benefit {
+    width: 250px;
+    
+}
+
+.Benefit img {
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: scale-down;
+}
+
+.white h2 {
+    text-align: center;
+}
+
+.quote span {
+    font-weight: bolder;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
